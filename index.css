@@ -1,0 +1,197 @@
+.container-fluid {
+    position: absolute;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+
+
+#fondo {
+    background-image: url("img/fondo-new2.jpg");
+    background-color: rgba(40, 40, 44);
+    background-blend-mode: soft-light;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner {
+    height: 100%;
+    object-fit: none;
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 2em;
+}
+
+.navbar {
+    border-radius: 5px;
+}
+
+.navbar-light {
+    background-color: rgba(90, 26, 194, 0.589);
+}
+
+.nav-link {
+    padding: 5%;
+    text-align: center;
+    border-radius: 5%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: rgba(61, 61, 172, 0.712);
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.rounded-circle {
+    border:solid;
+    border-color: rgba(90, 26, 194, 0.473);
+    border-width:3px;
+    height: 200px;
+    width: 200px;
+    margin-left: 55px;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.div-circle {
+    padding-top: 2%;
+}
+
+.div-descripcion {
+    margin: 3%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgba(90, 26, 194, 0.589);
+    box-shadow: 0px 0px 10px 4px;
+}
+
+
+/*.social{
+    position: fixed;
+    left:0;
+    top:200px;
+    z-index: 2000;
+}
+
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+*/
+
+.icon-twitter {
+    color: #fff;
+    background-color: rgb(54, 152, 190);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+
+.icon-instagram {
+    color: #fff;
+    background-color: rgb(216, 52, 167);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+
+.icon-whatsapp {
+    color: #fff;
+    background-color: rgb(57, 184, 40);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+
+.icon-linkedin {
+    color: #fff;
+    background-color: rgb(41, 77, 175);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+nav ul li a .iconos{
+    margin-bottom: 50px;
+}
+.iconos:hover {
+    color: #ffffff;
+    text-decoration: none;
+    
+    padding-top: 30px;
+}
+.iconos-div nav ul li a{
+    transition: all 500ms;
+
+}
+#lista-iconos{
+    flex-direction: row;
+}
+h4 {
+    color: rgba(255, 255, 255, 0.678);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+form {
+    background-color: rgba(90, 26, 194, 0.589);
+    padding: 5%;
+    border-radius: 20px;
+}
+.btn{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    margin-left: 40%;
+    background-color:rgba(84, 14, 196, 0.952);
+    border-color: rgba(41, 4, 102, 0.589);
+}
+
+.btn:hover{
+    background-color: rgba(90, 26, 194, 0.589);
+    border-color: rgba(41, 4, 102, 0.589);
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgba(90, 26, 194, 0.589);
+    border-color: rgba(41, 4, 102, 0.589);
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(116, 75, 184, 0.781);
+}
+
+html{
+    height: 100%;
+}
+.navbar-toggler{
+    border-radius: 5px; 
+    background-color: rgba(90, 26, 194, 0.507);
+    border-width: 1px;
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.521);
+}
