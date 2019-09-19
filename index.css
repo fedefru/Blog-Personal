@@ -11,7 +11,7 @@
     background-image: url("img/fondo.jpg");
     background-color: rgb(96, 96, 102);
     background-blend-mode: soft-light;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     z-index: -1;
     width: 100%;
@@ -48,26 +48,27 @@
     color: rgba(255, 255, 255, 0.678);
 }
 
+.main-height{
+    height: 70vh;
+}
+
 .rounded-circle {
     border: solid;
     border-color: rgba(90, 26, 194, 0.473);
     border-width: 3px;
     height: 200px;
     width: 200px;
-    margin-left: 55px;
+    
 }
 
 .fab {
     font-size: 30px;
 }
 
-.div-circle {
-    padding-top: 2%;
-}
+
 
 .div-descripcion {
-    margin: 3%;
-    padding: 2%;
+    padding: 20px;
     border-radius: 20px;
     background-color: rgba(90, 26, 194, 0.589);
     box-shadow: 0px 0px 10px 4px;
@@ -114,6 +115,8 @@ nav ul li a .iconos {
     text-decoration: none;
     padding-top: 30px;
 }
+
+
 
 .iconos-div nav ul li a {
     transition: all 500ms;
@@ -249,10 +252,14 @@ position: relative;
         height: 100vh;
         z-index: -1;
     }
-    .shadow {
-        
+    .shadow { 
         width: 100%;
-       
+    }
+
+    
+
+    .main-height{
+        height: 100vh;
     }
     
     @-webkit-keyframes Slyde_up {
