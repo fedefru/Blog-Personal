@@ -256,10 +256,15 @@ position: relative;
         width: 100%;
     }
 
-    
+    .rounded-circle{
+        margin-top: 15px;
+    }
 
+    .div-descripcion{
+        margin-top: 15px;
+    }
     .main-height{
-        height: 95vh;
+        height: 100%;
     }
     
     @-webkit-keyframes Slyde_up {
