@@ -74,18 +74,16 @@
                 <br>
                 <br>
                 <br>
-                <form action="mailto:fru.federico@gmail.com?subject=Information
-                Requested&body=Here's more information. 
-                http://www.website.com/info/info.pdf" method="GET" enctype="text/plain">
+                <form action="enviar.php" method="POST" enctype="text/plain">
                     <div class="form-group">
                         <input type="text" name="name" class="form-control" aria-describedby="emailHelp"
-                            placeholder="Nombre">
+                            placeholder="Nombre" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="email" placeholder="Email">
+                        <input type="text" class="form-control" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" class="form-control" placeholder="Mensaje"></textarea>
+                        <textarea name="message" class="form-control" placeholder="Mensaje" required></textarea>
                     </div>
 
                     <input type="submit" class="btn btn-primary" value="Enviar" class="submit">
